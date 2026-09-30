@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio BTS SIO SISR de Matteo Torres">
+  <title>Matteo Torres | Portfolio BTS SIO SISR</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#accueil"><span class="logo">MT</span><span><strong>Matteo Torres</strong><small>BTS SIO SISR</small></span></a>
+  <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+  <nav id="nav">
+    <a href="#accueil">Accueil</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#experience">Expérience</a>
+    <a href="#projets">Projets</a>
+    <a href="#competences">Compétences</a>
+    <a href="#veille">Veille</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="accueil" class="hero section">
+  <div class="hero-copy">
+    <p class="eyebrow">Bienvenue sur mon portfolio</p>
+    <h1>Matteo <span>Torres</span></h1>
+    <h2>BTS SIO – Option SISR</h2>
+    <p id="intro"></p>
+    <div class="actions">
+      <a class="btn primary" href="#parcours">Découvrir mon parcours</a>
+      <a class="btn" href="#projets">Voir mes projets</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="images/accueil.png" alt="Illustration informatique">
+</div>
+  </div>
+  <div class="summary-grid" id="summaryCards"></div>
+</section>
+
+<section id="parcours" class="section">
+  <div class="section-head"><p>01</p><h2>Mon parcours</h2></div>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<section id="experience" class="section">
+  <div class="section-head"><p>02</p><h2>Mon expérience professionnelle</h2></div>
+  <section id="experience" class="section">
+    </div>
+
+    <div class="cards" id="missions"></div>
+</section>
+  </div>
+</section>
+
+<section id="projets" class="section">
+  <div class="section-head"><p>03</p><h2>Mes projets et réalisations</h2></div>
+  <p class="section-intro">Des réalisations effectuées en formation, environnement professionnel et personnel.</p>
+  <div class="project-grid" id="projectGrid"></div>
+</section>
+
+<section id="competences" class="section">
+  <div class="section-head"><p>04</p><h2>Mes compétences</h2></div>
+  <div class="skill-grid" id="skillGrid"></div>
+</section>
+
+<section id="veille" class="section">
+  <div class="section-head"><p>05</p><h2>Veille technologique</h2></div>
+  <div class="watch-layout">
+    <article class="panel">
+      <span class="tag">Cybersécurité</span>
+      <h3>Cybersécurité des véhicules connectés</h3>
+      <p>Cette veille relie mon intérêt pour l'automobile à mon projet professionnel orienté réseaux et cybersécurité.</p>
+      <p><strong>Outil principal :</strong> Feedly</p>
+      <div class="chips"><span>Bus CAN</span><span>Véhicules connectés</span><span>Accès à distance</span><span>Clés numériques</span></div>
+    </article>
+    <div>
+      <h3>Articles / actualités suivis</h3>
+      <div id="watchList" class="watch-list"></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="section-head"><p>06</p><h2>Contact</h2></div>
+  <div class="panel contact-panel">
+    <div>
+      <h3>Matteo Torres</h3>
+      <p>BTS SIO SISR — Lycée Robert Schuman, Dugny</p>
+      <p>Administration systèmes & réseaux • Cybersécurité</p>
+    </div>
+    <div class="actions">
+      <a class="btn primary" id="mailBtn" href="#">Me contacter</a>
+      <a class="btn" id="cvBtn" href="documents/CV-Matteo-Torres.pdf" target="_blank">Voir mon CV</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><span>Matteo Torres</span> — Portfolio BTS SIO SISR <span id="year"></span></footer>
+<script src="js/contenu.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
