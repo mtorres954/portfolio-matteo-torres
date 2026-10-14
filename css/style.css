@@ -134,28 +134,14 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
 .top-contacts {
     display: flex !important;
     align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
-    row-gap: 10px;
 }
 
 .top-contacts .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    border: 1px solid #3876b8;
-    padding: 13px 20px;
-    border-radius: 8px;
-    font-weight: 650;
-    color: white;
-    background: transparent;
-    min-height: 48px;
-    white-space: nowrap;
+    margin-left: 20px !important;
 }
 
-.top-contacts .btn:hover {
-    transform: translateY(-1px);
-    border-color: #58aaff;
+.top-contacts .btn:first-child {
+    margin-left: 0 !important;
 }
 }
