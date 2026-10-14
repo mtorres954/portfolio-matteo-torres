@@ -139,24 +139,20 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
 }
 
 .top-contact-btn{
+    border:1px solid #3876b8;
+    padding:13px 20px;
+    border-radius:8px;
+    font-weight:650;
+    color:white;
+    background:transparent;
     display:flex;
     align-items:center;
     justify-content:center;
     gap:8px;
-    padding:13px 16px;
     min-height:48px;
-    border:1px solid #3876b8;
-    border-radius:8px;
-    background:#0b1d2e;
-    color:white;
-    font-weight:650;
-    white-space:nowrap;
 }
 
 .top-contact-btn:hover{
-    border-color:#58aaff;
-    background:#102943;
     transform:translateY(-1px);
 }
-    
 }
