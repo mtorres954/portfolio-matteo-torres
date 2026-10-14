@@ -9,7 +9,7 @@ const portfolio = {
 
   resume: [
     { titre: "Ma formation", texte: "BTS SIO – Option SISR • Lycée Robert Schuman – Dugny • 2025–2027" },
-    { titre: "Mon expérience", texte: "Mairie de Saint-Brice-sous-Forêt • Alternance – DSI • 2026–2027" },
+    { titre: "Mon alternance", texte: "Mairie de Saint-Brice-sous-Forêt • DSI : Helder Pereira • Technicien : Damien Martins • 2026–2027" },
     { titre: "Mon projet professionnel", texte: "Administration des systèmes et réseaux avec une orientation cybersécurité" }
   ],
 
@@ -22,9 +22,9 @@ const portfolio = {
 
  experiences: [
   { titre: "Alternance – en cours", entreprise: "Mairie de Saint-Brice-sous-Forêt", texte: "Support utilisateur, création de comptes Active Directory, masterisation et remplacement de postes, gestion du parc avec GLPI, Intune et Autopilot.", annee: "2026 – 2027" },
-  { titre: "Stage Terminale", entreprise: "IT Department of JJA", texte: "Configuration de PC, Active Directory, JIRA, ManageEngine, Windows Server 2022 et déploiement d’applications.", annee: "Novembre – Décembre 2024" },
-  { titre: "Stage 1ère", entreprise: "IT Department of JJA", texte: "Aide à l’utilisateur, configuration d’imprimantes et préparation de postes utilisateurs.", annee: "Février – Avril 2024" },
-  { titre: "Stage Seconde", entreprise: "À compléter", texte: "À compléter avec les missions réalisées durant ce stage.", annee: "À compléter" }
+  { titre: "Stage Terminale", entreprise: "JJA", texte: "Configuration de PC, Active Directory, JIRA, ManageEngine, Windows Server 2022 et déploiement d’applications.", annee: "Novembre – Décembre 2024" },
+  { titre: "Stage 1ère", entreprise: "JJA", texte: "Aide à l’utilisateur, configuration d’imprimantes et préparation de postes utilisateurs.", annee: "Février – Avril 2024" },
+  { titre: "Stage Seconde", entreprise: "CHU de Gonesse", texte: "Aide à l'utilisateur, installation et configuration d'imprimante, Masterisation et préparationn de poste.", annee: "Juin - Juillet 2023" }
 ],
 
   projets: [
@@ -42,20 +42,7 @@ const portfolio = {
       technologies: ["API GPT/OPEN AI","Android","Python","HTML","CSS", "HTTPS/TLS",],
       image: "images/Diag_Auto.png"
     },
-    {
-      titre: "A definir",
-      statut: "A definir",
-      description: "A definir.",
-      technologies: ["A definir"],
-      icone: "◫"
-    },
-    {
-      titre: "A definir",
-      statut: "A definir",
-      description: "A definir",
-      technologies: ["A definir"],
-      icone: "◎"
-    }
+
   ],
 
  competences: [
@@ -70,9 +57,10 @@ const portfolio = {
   // Pour ajouter un article de veille : copie un bloc entre { } et modifie-le.
   veille: [
     {
-      date: "Septembre 2026",
-      titre: "Veille en cours",
-      resume: "Suivi des actualités concernant la sécurité des véhicules connectés, les réseaux automobiles et les nouvelles méthodes d’attaque et de protection."
+      date: "A Definir",
+      titre: "Article Marquand",
+      lien:  "https://    ",
+      resume: "Résumé de l'article"
     }
   ]
 };
