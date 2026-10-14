@@ -132,16 +132,13 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
         grid-template-columns: 1fr;
     }
 .top-contacts {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 .top-contacts .btn {
-    margin-right: 15px !important;
-}
-
-.top-contacts .btn:last-child {
-    margin-right: 0 !important;
+    flex-shrink: 0;
 }
 }
