@@ -131,28 +131,30 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
     .contact-grid {
         grid-template-columns: 1fr;
     }
-.top-contacts{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    flex-wrap:wrap;
+.top-contacts {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
-.top-contact-btn{
-    border:1px solid #3876b8;
-    padding:13px 20px;
-    border-radius:8px;
-    font-weight:650;
-    color:white;
-    background:transparent;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:8px;
-    min-height:48px;
+.top-contacts .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #3876b8;
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-weight: 650;
+    color: white;
+    background: transparent;
+    min-height: 48px;
+    white-space: nowrap;
 }
 
-.top-contact-btn:hover{
-    transform:translateY(-1px);
+.top-contacts .btn:hover {
+    transform: translateY(-1px);
+    border-color: #58aaff;
 }
 }
