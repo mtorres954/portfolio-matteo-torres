@@ -132,10 +132,11 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
         grid-template-columns: 1fr;
     }
 .top-contacts {
-    display: flex;
+    display: flex !important;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 .top-contacts .btn {
