@@ -131,4 +131,29 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
     .contact-grid {
         grid-template-columns: 1fr;
     }
+.top-contacts{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.top-contact-btn{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:13px 16px;
+    border:1px solid #3876b8;
+    border-radius:8px;
+    color:white;
+    font-weight:650;
+    background:#0b1d2e;
+}
+
+.top-contact-btn:hover{
+    border-color:#58aaff;
+    background:#102943;
+    transform:translateY(-1px);
+}
+    
 }
