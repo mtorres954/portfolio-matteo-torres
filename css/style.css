@@ -132,16 +132,24 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
         grid-template-columns: 1fr;
     }
 .top-contacts {
-    display: flex !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 20px !important;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: end;
 }
-
 .top-contacts .btn {
-    margin-left: 20px !important;
-}
-
-.top-contacts .btn:first-child {
-    margin-left: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 48px;
+    padding: 13px 20px;
+    border: 1px solid #3876b8;
+    border-radius: 8px;
+    font-weight: 650;
+    color: white;
+    background: transparent;
+    white-space: nowrap;
 }
 }
