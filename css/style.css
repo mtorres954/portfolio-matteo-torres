@@ -133,21 +133,24 @@ nav{display:flex;gap:8px}nav a{padding:25px 12px 22px;color:#c5cfdb;font-size:14
     }
 .top-contacts{
     display:flex;
+    align-items:center;
     gap:10px;
     flex-wrap:wrap;
-    align-items:center;
 }
 
 .top-contact-btn{
     display:flex;
     align-items:center;
+    justify-content:center;
     gap:8px;
     padding:13px 16px;
+    min-height:48px;
     border:1px solid #3876b8;
     border-radius:8px;
+    background:#0b1d2e;
     color:white;
     font-weight:650;
-    background:#0b1d2e;
+    white-space:nowrap;
 }
 
 .top-contact-btn:hover{
